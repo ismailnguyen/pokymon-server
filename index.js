@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const server = app.listen(3001, function () {
+const server = app.listen(process.env.PORT, function () {
 	console.log('server is listening on port 3001')
 })
 
@@ -22,7 +22,6 @@ io.on('connection', function (socket) {
 		io.emit('users_updated', users)
 	})
 
-	
 	socket.on('disconnect', (user) => {
 		io.emit('disconnected', user)
 	})
