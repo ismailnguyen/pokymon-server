@@ -1,18 +1,18 @@
 {
-  "name": "pokymon-server",
-  "version": "1.0.0",
-  "description": "Poker planning server",
-  "main": "server.js",
-  "engines": {
-	  "node": "12.17.x"
+	"name": "pokymon-server",
+	"version": "1.0.0",
+	"description": "Poker planning server",
+	"main": "server.js",
+	"engines": {
+		"node": "12.17.x"
 	},
 	"scripts": {
-	  "start": "node server.js"
+		"start": "node server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"socket.io": "^3.0.4"
 	}
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^3.0.4"
-  }
 }
