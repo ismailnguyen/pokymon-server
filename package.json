@@ -2,10 +2,13 @@
   "name": "pokymon-server",
   "version": "1.0.0",
   "description": "Poker planning server",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "main": "server.js",
+  "engines": {
+	  "node": "12.17.x"
+	},
+	"scripts": {
+	  "start": "node server.js"
+	}
   "author": "",
   "license": "ISC",
   "dependencies": {

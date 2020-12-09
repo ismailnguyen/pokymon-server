@@ -1,0 +1,6 @@
+{
+  "name": "Pokymon server",
+  "description": "Poker planning websocket server",
+  "repository": "https://pokymon-server.herokuapp.com",
+  "keywords": ["node", "websocket", "socket.io"]
+}
